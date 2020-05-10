@@ -1,0 +1,222 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.1, py-1.8.1, pluggy-0.13.1 -- c:\users\±èÈ¿¹Î\appdata\local\programs\python\python38-32\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\±èÈ¿¹Î\Documents\Ä«Ä«¿ÀÅå ¹ÞÀº ÆÄÀÏ\poker\poker
+plugins: cov-2.8.1
+collecting ... collected 79 items
+
+test_card.py::test_PKCard_init PASSED                                    [  1%]
+test_card.py::test_PKCard_init_exception PASSED                          [  2%]
+test_card.py::test_PKCard_repr PASSED                                    [  3%]
+test_card.py::test_PKCard_value PASSED                                   [  5%]
+test_card.py::test_PKCard_comp PASSED                                    [  6%]
+test_card.py::test_PKCard_sort PASSED                                    [  7%]
+test_card.py::test_Deck_init PASSED                                      [  8%]
+test_card.py::test_Deck_pop PASSED                                       [ 10%]
+test_card.py::test_Deck_len PASSED                                       [ 11%]
+test_card.py::test_Deck_getitem PASSED                                   [ 12%]
+test_poker.py::test_is_straight[faces0-Ranking.STRAIGHT] PASSED          [ 13%]
+test_poker.py::test_is_straight[faces1-Ranking.STRAIGHT] PASSED          [ 15%]
+test_poker.py::test_is_straight[faces2-Ranking.STRAIGHT] PASSED          [ 16%]
+test_poker.py::test_is_straight[faces3-Ranking.STRAIGHT] PASSED          [ 17%]
+test_poker.py::test_is_flush[faces0-Ranking.FLUSH] PASSED                [ 18%]
+test_poker.py::test_is_flush[faces1-Ranking.FLUSH] PASSED                [ 20%]
+test_poker.py::test_is_flush[faces2-Ranking.FLUSH] FAILED                [ 21%]
+test_poker.py::test_is_flush[faces3-Ranking.FLUSH] PASSED                [ 22%]
+test_poker.py::test_is_find_a_kind[faces0-Ranking.FOUR_OF_A_KIND] PASSED [ 24%]
+test_poker.py::test_is_find_a_kind[faces1-Ranking.FOUR_OF_A_KIND] FAILED [ 25%]
+test_poker.py::test_is_find_a_kind[faces2-Ranking.FOUR_OF_A_KIND] PASSED [ 26%]
+test_poker.py::test_is_find_a_kind[faces3-Ranking.FOUR_OF_A_KIND] PASSED [ 27%]
+test_poker.py::test_is_find_a_kind[faces4-Ranking.FOUR_OF_A_KIND] PASSED [ 29%]
+test_poker.py::test_is_find_a_kind[faces5-Ranking.THREE_OF_A_KIND] PASSED [ 30%]
+test_poker.py::test_is_find_a_kind[faces6-Ranking.THREE_OF_A_KIND] PASSED [ 31%]
+test_poker.py::test_is_find_a_kind[faces7-Ranking.THREE_OF_A_KIND] PASSED [ 32%]
+test_poker.py::test_is_find_a_kind[faces8-Ranking.THREE_OF_A_KIND] PASSED [ 34%]
+test_poker.py::test_is_find_a_kind[faces9-Ranking.THREE_OF_A_KIND] PASSED [ 35%]
+test_poker.py::test_is_find_a_kind[faces10-Ranking.TWO_PAIRS] PASSED     [ 36%]
+test_poker.py::test_is_find_a_kind[faces11-Ranking.TWO_PAIRS] PASSED     [ 37%]
+test_poker.py::test_is_find_a_kind[faces12-Ranking.TWO_PAIRS] PASSED     [ 39%]
+test_poker.py::test_is_find_a_kind[faces13-Ranking.TWO_PAIRS] PASSED     [ 40%]
+test_poker.py::test_is_find_a_kind[faces14-Ranking.TWO_PAIRS] PASSED     [ 41%]
+test_poker.py::test_is_find_a_kind[faces15-Ranking.ONE_PAIR] PASSED      [ 43%]
+test_poker.py::test_is_find_a_kind[faces16-Ranking.ONE_PAIR] PASSED      [ 44%]
+test_poker.py::test_is_find_a_kind[faces17-Ranking.ONE_PAIR] PASSED      [ 45%]
+test_poker.py::test_is_high_card[faces0-Ranking.HIGH_CARD] PASSED        [ 46%]
+test_poker.py::test_is_high_card[faces1-Ranking.HIGH_CARD] PASSED        [ 48%]
+test_poker.py::test_is_high_card[faces2-Ranking.HIGH_CARD] PASSED        [ 49%]
+test_poker.py::test_eval[faces0-Ranking.STRAIGHT_FLUSH] PASSED           [ 50%]
+test_poker.py::test_eval[faces1-Ranking.STRAIGHT_FLUSH] PASSED           [ 51%]
+test_poker.py::test_eval[faces2-Ranking.STRAIGHT_FLUSH] PASSED           [ 53%]
+test_poker.py::test_eval[faces3-Ranking.STRAIGHT_FLUSH] PASSED           [ 54%]
+test_poker.py::test_eval[faces4-Ranking.FOUR_OF_A_KIND] PASSED           [ 55%]
+test_poker.py::test_eval[faces5-Ranking.FOUR_OF_A_KIND] FAILED           [ 56%]
+test_poker.py::test_eval[faces6-Ranking.FOUR_OF_A_KIND] PASSED           [ 58%]
+test_poker.py::test_eval[faces7-Ranking.FOUR_OF_A_KIND] PASSED           [ 59%]
+test_poker.py::test_eval[faces8-Ranking.FOUR_OF_A_KIND] PASSED           [ 60%]
+test_poker.py::test_eval[faces9-Ranking.FULL_HOUSE] PASSED               [ 62%]
+test_poker.py::test_eval[faces10-Ranking.FULL_HOUSE] PASSED              [ 63%]
+test_poker.py::test_eval[faces11-Ranking.FULL_HOUSE] PASSED              [ 64%]
+test_poker.py::test_eval[faces12-Ranking.FULL_HOUSE] PASSED              [ 65%]
+test_poker.py::test_eval[faces13-Ranking.FULL_HOUSE] PASSED              [ 67%]
+test_poker.py::test_eval[faces14-Ranking.FULL_HOUSE] PASSED              [ 68%]
+test_poker.py::test_eval[faces15-Ranking.FLUSH] PASSED                   [ 69%]
+test_poker.py::test_eval[faces16-Ranking.FLUSH] PASSED                   [ 70%]
+test_poker.py::test_eval[faces17-Ranking.FLUSH] FAILED                   [ 72%]
+test_poker.py::test_eval[faces18-Ranking.FLUSH] PASSED                   [ 73%]
+test_poker.py::test_eval[faces19-Ranking.STRAIGHT] PASSED                [ 74%]
+test_poker.py::test_eval[faces20-Ranking.STRAIGHT] PASSED                [ 75%]
+test_poker.py::test_eval[faces21-Ranking.STRAIGHT] PASSED                [ 77%]
+test_poker.py::test_eval[faces22-Ranking.STRAIGHT] PASSED                [ 78%]
+test_poker.py::test_eval[faces23-Ranking.THREE_OF_A_KIND] PASSED         [ 79%]
+test_poker.py::test_eval[faces24-Ranking.THREE_OF_A_KIND] PASSED         [ 81%]
+test_poker.py::test_eval[faces25-Ranking.THREE_OF_A_KIND] PASSED         [ 82%]
+test_poker.py::test_eval[faces26-Ranking.THREE_OF_A_KIND] PASSED         [ 83%]
+test_poker.py::test_eval[faces27-Ranking.THREE_OF_A_KIND] PASSED         [ 84%]
+test_poker.py::test_eval[faces28-Ranking.TWO_PAIRS] PASSED               [ 86%]
+test_poker.py::test_eval[faces29-Ranking.TWO_PAIRS] PASSED               [ 87%]
+test_poker.py::test_eval[faces30-Ranking.TWO_PAIRS] PASSED               [ 88%]
+test_poker.py::test_eval[faces31-Ranking.TWO_PAIRS] PASSED               [ 89%]
+test_poker.py::test_eval[faces32-Ranking.TWO_PAIRS] PASSED               [ 91%]
+test_poker.py::test_eval[faces33-Ranking.ONE_PAIR] PASSED                [ 92%]
+test_poker.py::test_eval[faces34-Ranking.ONE_PAIR] PASSED                [ 93%]
+test_poker.py::test_eval[faces35-Ranking.ONE_PAIR] PASSED                [ 94%]
+test_poker.py::test_eval[faces36-Ranking.HIGH_CARD] PASSED               [ 96%]
+test_poker.py::test_eval[faces37-Ranking.HIGH_CARD] PASSED               [ 97%]
+test_poker.py::test_eval[faces38-Ranking.HIGH_CARD] PASSED               [ 98%]
+test_poker.py::test_who_wins FAILED                                      [100%]
+
+================================== FAILURES ===================================
+_____________________ test_is_flush[faces2-Ranking.FLUSH] _____________________
+
+faces = ['TS', '9S', '4S', '3S', '1S'], expected = <Ranking.FLUSH: 5>
+
+    @pytest.mark.parametrize("faces, expected", cases(Ranking.FLUSH))
+    def test_is_flush(faces, expected):
+>       hand_org = [PKCard(c) for c in faces]
+
+test_poker.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_poker.py:87: in <listcomp>
+    hand_org = [PKCard(c) for c in faces]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <[AttributeError("'PKCard' object has no attribute 'card'") raised in repr()] PKCard object at 0x36885e0>
+rank_suit = '1S'
+
+    def __init__(self, rank_suit):
+        if rank_suit[0] not in ranks or rank_suit[1] not in suits:
+>           raise ValueError(f'{rank_suit}: illegal card')
+E           ValueError: 1S: illegal card
+
+card.py:11: ValueError
+_____________ test_is_find_a_kind[faces1-Ranking.FOUR_OF_A_KIND] ______________
+
+faces = ['JC', 'JH', 'JS', 'JD', '1S'], expected = <Ranking.FOUR_OF_A_KIND: 7>
+
+    @pytest.mark.parametrize("faces, expected", cases(Ranking.FOUR_OF_A_KIND, Ranking.THREE_OF_A_KIND,Ranking.TWO_PAIRS, Ranking.ONE_PAIR))
+    def test_is_find_a_kind(faces, expected):
+>       hand_org = [PKCard(c) for c in faces]
+
+test_poker.py:96: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_poker.py:96: in <listcomp>
+    hand_org = [PKCard(c) for c in faces]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <[AttributeError("'PKCard' object has no attribute 'card'") raised in repr()] PKCard object at 0x36aa5b0>
+rank_suit = '1S'
+
+    def __init__(self, rank_suit):
+        if rank_suit[0] not in ranks or rank_suit[1] not in suits:
+>           raise ValueError(f'{rank_suit}: illegal card')
+E           ValueError: 1S: illegal card
+
+card.py:11: ValueError
+__________________ test_eval[faces5-Ranking.FOUR_OF_A_KIND] ___________________
+
+faces = ['JH', 'JD', 'JS', '1S', 'JC'], expected = <Ranking.FOUR_OF_A_KIND: 7>
+
+    @pytest.mark.parametrize("faces, expected", cases())
+    def test_eval(faces, expected):
+        random.shuffle(faces)
+>       hand = Hands([PKCard(c) for c in faces])
+
+test_poker.py:115: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_poker.py:115: in <listcomp>
+    hand = Hands([PKCard(c) for c in faces])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <[AttributeError("'PKCard' object has no attribute 'card'") raised in repr()] PKCard object at 0x36c3d30>
+rank_suit = '1S'
+
+    def __init__(self, rank_suit):
+        if rank_suit[0] not in ranks or rank_suit[1] not in suits:
+>           raise ValueError(f'{rank_suit}: illegal card')
+E           ValueError: 1S: illegal card
+
+card.py:11: ValueError
+______________________ test_eval[faces17-Ranking.FLUSH] _______________________
+
+faces = ['TS', '1S', '3S', '9S', '4S'], expected = <Ranking.FLUSH: 5>
+
+    @pytest.mark.parametrize("faces, expected", cases())
+    def test_eval(faces, expected):
+        random.shuffle(faces)
+>       hand = Hands([PKCard(c) for c in faces])
+
+test_poker.py:115: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_poker.py:115: in <listcomp>
+    hand = Hands([PKCard(c) for c in faces])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <[AttributeError("'PKCard' object has no attribute 'card'") raised in repr()] PKCard object at 0x36d43e8>
+rank_suit = '1S'
+
+    def __init__(self, rank_suit):
+        if rank_suit[0] not in ranks or rank_suit[1] not in suits:
+>           raise ValueError(f'{rank_suit}: illegal card')
+E           ValueError: 1S: illegal card
+
+card.py:11: ValueError
+________________________________ test_who_wins ________________________________
+
+    def test_who_wins():
+>       hand_cases = [Hands(faces) for faces, ranking in cases()]
+
+test_poker.py:120: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test_poker.py:120: in <listcomp>
+    hand_cases = [Hands(faces) for faces, ranking in cases()]
+poker.py:29: in __init__
+    card_list.append(PKCard(card))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <[AttributeError("'PKCard' object has no attribute 'card'") raised in repr()] PKCard object at 0x36cde20>
+rank_suit = '1S'
+
+    def __init__(self, rank_suit):
+        if rank_suit[0] not in ranks or rank_suit[1] not in suits:
+>           raise ValueError(f'{rank_suit}: illegal card')
+E           ValueError: 1S: illegal card
+
+card.py:11: ValueError
+
+----------- coverage: platform win32, python 3.8.2-final-0 -----------
+Name            Stmts   Miss  Cover
+-----------------------------------
+card.py            71     29    59%
+poker.py          130     28    78%
+test_card.py       55      0   100%
+test_poker.py      58      7    88%
+-----------------------------------
+TOTAL             314     64    80%
+
+=========================== short test summary info ===========================
+FAILED test_poker.py::test_is_flush[faces2-Ranking.FLUSH] - ValueError: 1S: i...
+FAILED test_poker.py::test_is_find_a_kind[faces1-Ranking.FOUR_OF_A_KIND] - Va...
+FAILED test_poker.py::test_eval[faces5-Ranking.FOUR_OF_A_KIND] - ValueError: ...
+FAILED test_poker.py::test_eval[faces17-Ranking.FLUSH] - ValueError: 1S: ille...
+FAILED test_poker.py::test_who_wins - ValueError: 1S: illegal card
+======================== 5 failed, 74 passed in 1.68s =========================
